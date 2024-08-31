@@ -36,10 +36,11 @@ The application is organized into the following packages:
 ## Setup and Installation
 
 **Clone the Repository**:
-    ```bash
-    git clone https://github.com/mofq786/Shopping_Application_Using_Spring-Data-JPA.git
-    cd Shopping_Application_Using_Spring-Data-JPA
-    ```
+```bash
+git clone https://github.com/mofq786/Shopping_Application_Using_Spring-Data-JPA.git
+
+cd Shopping_Application_Using_Spring-Data-JPA
+```
 
 ## Contributing
 
