@@ -1,7 +1,10 @@
 package org.jsp.service;
 
+import org.jsp.entity.Customer;
+
 public interface CustomerService {
 	
-	boolean customerDetails();
+	void customerDetails();
+	void customerLogin();
 
 }

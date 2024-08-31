@@ -26,8 +26,9 @@ public class CustomerDAOImpl implements CustomerDAO {
 	}
 
 	@Override
-	public void updateCustomerDetails(String address) {
-		custRepo.deleteById(101);;
+	public Customer getCustomerDetailsBasedOnEmailIdAndPassword(String emailId, String password) {
+		Customer customer = custRepo.findByEmailidAndPassword(emailId, password);
+		return customer;
 	}
 
 }

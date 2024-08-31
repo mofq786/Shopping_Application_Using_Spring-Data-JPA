@@ -7,5 +7,5 @@ import org.jsp.entity.Customer;
 public interface CustomerDAO {
 	Customer insertCustomerObject(Customer customer);
 	List<Customer> getAllCustomerDetails();
-	void updateCustomerDetails(String address);
+	Customer getCustomerDetailsBasedOnEmailIdAndPassword(String emailId,String password);
 }
